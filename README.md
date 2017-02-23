@@ -1,8 +1,6 @@
 # Himsheel-International
 26 feb submission date
-Dear M Vishal, 
-
-You have received the following message for your Web Development internship application with Himsheel International. Just click on ‘Reply’ to respond directly to the employer. 
+ 
 
 ----------------------------------------- 
 

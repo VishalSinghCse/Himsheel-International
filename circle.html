@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>circle</title>
+
+    <script>
+        echo
+    </script>
+</head>
+
+<body>
+<div id="outer">/
+    <div id="form">
+        <h1>
+            CIRCLE
+        </h1>
+
+            <p> Selection Lists: <br />
+                <select name="select1" id="pick">
+                    <option value="" disabled selected>-- Select a Color --</option>
+                    <option value="red" onclick="return red()">Red</option>
+                    <option value="black">Black</option>
+                    <option value="blue">Blue</option>
+                </select>
+            </p>
+            <p> <input type="submit" name="submit1" value="Set COLOR" onclick="return display()" /> </p>
+        </form>
+
+<div>Activity:
+<li>1.You have to write a code for a web page</li>
+<li>2.The web page needs to have a circle (Radius can be any size)</li>
+<li>3.The circle needs to have 3 colour options on its right side displayed vertically (Black,Blue and Red)</li>
+<li>4.The colour displayed should be the actual colour black, blue and Red (Any shade) and not just words. </li>
+<li>5.When the user selects the Black colour the circle should fill with the colour black. When the user selects the colour Blue the circle needs to change its colour to Blue and when the user selects the colour Red the circle will change the colour to Red.</li>
+</div>
+    </div> <!-- form -->
+
+    <div id="results">
+        <svg height="1000" width="1000">
+            <circle id="imp" r="100" cx="250" cy="250" fill="black" stroke="black"></circle>
+        </svg>
+    </div> <!-- results -->
+</div> <!-- outer -->
+</div>
+
+</body>
+</html>
